@@ -7,23 +7,17 @@ Módulo de pago de pagantis.com para osCommerce (v.2.3.x)
 
 1. Crea tu cuenta en Pagantis.com si aún no la tienes [desde aquí](https://bo.pagantis.com/users/sign_up)
 2. Descarga el módulo de [aquí](https://github.com/pagantis/pagantis-oscommerce/releases)
-3. Instala el módulo en tu tienda oscommerce:
-
-Sube los ficheros de la carpeta /catalog de este módulo, manteniendo la estructura de directorios. 
-
-ext/modules/payment/pagantis/callback.php
-includes/modules/payment/pagantis.php
-includes/languages/espanol/modules/payment/pagantis.php
-includes/languages/english/modules/payment/pagantis.php
-
-Si tu tienda tiene más idiomas, copia el fichero de idiomas en la carpeta correspondiente y edítalo para ajustar los textos
-includes/languages/OTRO_IDIOMA/modules/payment/pagantis.php
-
-
-4. Desde el panel de osCommerce de tu tienda, accede a Modulos > Pago. Pulsa el botón Instalar Módulo y selecciona el módulo Pagantis.
-5. Una vez instalado, selecciona el módulo Pagantis de la lista de módulos disponibles y pulsa Editar. 
-6. Configura el código de cuenta y la clave de firma con la información de tu cuenta que encontrarás en [el panel de gestión de Pagantis](https://bo.pagantis.com/api). Ten en cuenta que para hacer cobros reales deberás activar tu cuenta de Pagantis.
-7. MUY IMPORTANTE: Añade en [la sección de notificaciones HTTP](https://bo.pagantis.com/notifications) de Pagantis la URL de notificación de tu tienda. Puedes ver más abajo instrucciones para saber la URL de tu comercio.
+3. Instala el módulo en tu tienda oscommerce. Para ello sube los ficheros de la carpeta /catalog de este módulo a la carpeta /catalog de tu instalación de oscommerce, manteniendo la estructura de directorios existente 
+  - ext/modules/payment/pagantis/callback.php
+  - includes/modules/payment/pagantis.php
+  - includes/languages/espanol/modules/payment/pagantis.php
+  - includes/languages/english/modules/payment/pagantis.php
+4. Si tu tienda tiene más idiomas, copia el fichero de idiomas en la carpeta correspondiente y edítalo para ajustar los textos
+  - includes/languages/OTRO_IDIOMA/modules/payment/pagantis.php
+5. Desde el panel de osCommerce de tu tienda, accede a Modulos > Pago. Pulsa el botón Instalar Módulo y selecciona el módulo Pagantis.
+6. Una vez instalado, selecciona el módulo Pagantis de la lista de módulos disponibles y pulsa Editar. 
+7. Configura el código de cuenta y la clave de firma con la información de tu cuenta que encontrarás en [el panel de gestión de Pagantis](https://bo.pagantis.com/api). Ten en cuenta que para hacer cobros reales deberás activar tu cuenta de Pagantis.
+8. MUY IMPORTANTE: Añade en [la sección de notificaciones HTTP](https://bo.pagantis.com/notifications) de Pagantis la URL de notificación de tu tienda. Puedes ver más abajo instrucciones para saber la URL de tu comercio.
 
 
 ## URLs de notificación
@@ -39,7 +33,7 @@ Ejemplos:
 
 ### Soporte
 
-Si tienes alguna duda o pregunta no tienes más que escribirnos un email a [soporte.tpv@pagantis.com] o a través de Twitter a [@PagantisDev](https://twitter.com/PagantisDev)
+Si tienes alguna duda o pregunta no tienes más que escribirnos un email a soporte.tpv@pagantis.com o a través de Twitter a [@PagantisDev](https://twitter.com/PagantisDev)
 
 
 ### Release notes
